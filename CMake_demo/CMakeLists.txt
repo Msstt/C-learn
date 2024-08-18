@@ -11,9 +11,12 @@ add_subdirectory(math)
 
 add_subdirectory(magic)
 
-# include_directories(math)
+include_directories(deps/gtest/include)
+link_directories(deps/gtest/lib)
 
 # 编译源码生成目标
 add_executable(Demo src/main.cpp)
 
-target_link_libraries(Demo magic)
+target_link_libraries(Demo magic gtest)
+
+target_link_libraries(Demo gtest)

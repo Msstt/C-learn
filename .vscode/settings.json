@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "/home/msstt/code/C-learn/CMake_demo",
+    "files.associations": {
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
